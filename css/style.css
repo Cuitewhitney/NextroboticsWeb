@@ -502,7 +502,7 @@ a.navbar-brand img {
 }
 
 .theme_color {
-	color: #d4a81e;
+	color: #3aad17;
 }
 
 
@@ -649,7 +649,7 @@ a.navbar-brand img {
 .contact_bt {
     width: 180px;
     height: 50px;
-    background: #d4a81e;
+    background: #3aad17;
     color: #fff;
     float: left;
     line-height: 50px;
@@ -1941,7 +1941,7 @@ h3.small_heading {
 }
 
 .carousel a.carousel-control-prev {
-    background: #d4a81e;
+    background: #3aad17;
     opacity: 1;
     width: 55px;
     height: 50px;
@@ -1951,7 +1951,7 @@ h3.small_heading {
 }
 
 .carousel a.carousel-control-next {
-	background: #d4a81e;
+	background: #3aad17;
 	opacity: 1;
 	width: 50px;
 	height: 50px;
