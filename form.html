@@ -146,42 +146,48 @@
 	  <!-- end section -->
   <div class="container">
     <form class="form-select-lg" action="https://formsubmit.co/info@nextstemandrobotics.com.ng" method="POST">
+       <!-- Honeypie -->
+       <input type="text" name="_honey" style="display: none;">
+       <input type="hidden" name="_captcha" value="false">
+       <input type="hidden" name="_next" value="https://cuitewhitney.github.io/NextroboticsWeb/sucess.html">
+       <!-- end Honeypie -->
       <div class="mb-5">
         <label for="exampleInputfullname" class="form-label">Full Name:</label>
-        <input type="text" class="form-control" id="exampleInputfullname" aria-describedby="emailHelp" required>
+        <input type="text" class="form-control" name="Name" id="exampleInputfullname" aria-describedby="emailHelp" required>
         <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
       </div>
         <div class="mb-5">
           <label for="exampleInputEmail1" class="form-label">Email address:</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
           <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div>
         <div class="mb-5">
           <label for="exampleInputphone" class="form-label">Phone Number:</label>
-          <input type="text" class="form-control" id="exampleInputphone" aria-describedby="emailHelp" required>
+          <input type="text" class="form-control" name="phoneNumber" id="exampleInputphone" aria-describedby="emailHelp" required>
           <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div>
         <div class="mb-5">
           <label for="exampleInputEmail1" class="form-label">Preferred Course:</label>
-          <select class="form-select" aria-label="Default select example" required>
+          <select class="form-select" name="course" aria-label="Default select example" required>
             <option selected>Select menu</option>
             <option value="1">Basic Computer Training</option>
-            <option value="1">Embedded System/IoT/Robotics</option>
-            <option value="2">Data Analystics/Data Science</option>
-            <option value="3">Web Development</option>
-            <option value="1">Mobile App Development</option>
-            <option value="2">Python Programming</option>
-            <option value="3">Cloud Engineering</option>
-            <option value="1">AutoCAD Drafter</option>
-            <option value="2">DevOps Engineering</option>
-            <option value="3">CyberSecurity</option>
-            <option value="1">3D Animation</option>
-            <option value="2">2D Animation</option>
-            <option value="3">Video Editing</option>
-            <option value="1">Video Game Designer</option>
-            <option value="2">other Programming Language</option>
-            <option value="3">Software Engineering</option>
-            <option value="1">Others</option>
+            <option value="2">Embedded System/IoT/Robotics</option>
+            <option value="3">Data Analystics/Data Science</option>
+            <option value="4">Web Development</option>
+            <option value="5">Mobile App Development</option>
+            <option value="6">Python Programming</option>
+            <option value="7">Cloud Engineering</option>
+            <option value="8">AutoCAD Drafter</option>
+            <option value="9">DevOps Engineering</option>
+            <option value="10">CyberSecurity</option>
+            <option value="11">3D Animation</option>
+            <option value="12">2D Animation</option>
+            <option value="13">Video Editing</option>
+            <option value="14">Video Game Designer</option>
+            <option value="15">other Programming Language</option>
+            <option value="16">Software Engineering</option>
+            <option value="17"><input type="text">others</option>
+
             <!-- <option value="2">IT Project Manager</option> -->
             <!-- <option value="3">Robotics Engineer</option> -->
           </select>
@@ -190,13 +196,13 @@
           <label for="exampleInputclass" class="form-label">Class Mode</label>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label class="form-check-label" name="Classmode" for="flexRadioDefault1">
               Online (Virtual)
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label"  name="classmode" for="flexRadioDefault2">
               Onsite (In-Person)
             </label>
           </div>
@@ -253,7 +259,12 @@
 							 <p>Sign Up for more update!</p>
 							 <div class="newsletter_form">
 							    <form action="https://formsubmit.co/info@nextstemandrobotics.com.ng" method="POST">
-								   <input type="email" placeholder="Your Email" name="Newsletter" required />
+                    <!-- Honeypie -->
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://cuitewhitney.github.io/NextroboticsWeb/sucess.html">
+                    <!-- end Honeypie -->
+                    <input type="email" placeholder="Your Email" name="Newsletter" required />
 								   <button>Submit</button>
 								</form>
 							 </div>
